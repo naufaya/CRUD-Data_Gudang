@@ -318,10 +318,6 @@ def menu4():
         else:
             print("\nPilihan tidak valid, coba lagi.\n")
 
-# Exit Program
-def menu5():
-    print("\nProgram berakhir")
-
 # Main Menu
 def main_menu():
     print("\tSelamat Datang di Gudang\n")
@@ -348,7 +344,7 @@ def main_menu():
             menu4()
             main_menu()
         elif list_menu == '5':
-            menu5()
+            print("\nProgram Berakhir")
             break
         else:
             print("\n\tPilihan tidak valid, coba lagi\n")

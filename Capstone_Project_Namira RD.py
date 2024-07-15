@@ -158,7 +158,6 @@ def menu2():
                     
                     konfirmasi = input("Apakah Anda ingin menyimpan barang ini? (Y/N): ")
                     if konfirmasi == 'Y' or konfirmasi == 'y':
-                        gudang_list.append({'id': id_item, 'nama': nama, 'jumlah': jumlah, 'harga': harga, 'supplier': supplier, 'kategori': kategori})
                         print(f"\nBarang {nama} sudah ditambahkan\n")
                     else:
                         print("Penambahan barang dibatalkan.")

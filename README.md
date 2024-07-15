@@ -3,9 +3,9 @@ Final Exam Modul 1 - Python Fundamental
 
 Sistem Manajemen Data Gudang
 
-#Pendahuluan
+# Pendahuluan
 
-Ini adalah aplikasi mini berbasis Python untuk mengelola inventaris gudang. Sistem ini memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus (CRUD) barang-barang di gudang. Program ini ideal untuk gudang kecil hingga menengah untuk melacak inventaris mereka secara efisien.
+Ini adalah aplikasi mini berbasis Python untuk mengelola data gudang. Sistem ini memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus (CRUD) barang-barang di gudang. Program ini ideal untuk gudang kecil hingga menengah untuk melacak inventaris mereka secara efisien.
 
 Fitur
 
@@ -18,8 +18,7 @@ Fitur
 
 Cara Kerja Program
 
-Data Awal
-
+## Data Awal
 Program dimulai dengan daftar barang-barang yang telah ditentukan di gudang. Setiap barang memiliki atribut berikut:
 
 	•	id: Pengenal unik untuk barang.
@@ -29,8 +28,7 @@ Program dimulai dengan daftar barang-barang yang telah ditentukan di gudang. Set
 	•	supplier: Pemasok barang.
 	•	kategori: Kategori barang.
 
-Menu Utama
-
+## Menu Utama
 Menu utama menyediakan opsi berikut:
 
 	1.	Menampilkan Daftar Barang
@@ -39,32 +37,19 @@ Menu utama menyediakan opsi berikut:
 	4.	Menghapus Barang
 	5.	Keluar Program
 
-Tampilkan Semua Barang
+- Tampilkan Semua Barang: Menampilkan daftar terformat dari semua barang di gudang.
 
-Menampilkan daftar terformat dari semua barang di gudang.
+- Tampilkan Barang berdasarkan ID: Meminta pengguna untuk memasukkan ID barang dan menampilkan detailnya.
 
-Tampilkan Barang berdasarkan ID
+- Tambah Barang Baru: Memungkinkan pengguna untuk menambahkan barang baru dengan memasukkan detailnya. Barang baru ditambahkan ke daftar jika ID-nya unik.
 
-Meminta pengguna untuk memasukkan ID barang dan menampilkan detailnya.
+- Perbarui Barang: Meminta pengguna untuk memasukkan ID barang untuk memperbarui detailnya. Pengguna dapat memilih atribut mana yang akan diperbarui (nama, jumlah, harga, pemasok, atau kategori).
 
-Tambah Barang Baru
+- Hapus Barang: Meminta pengguna untuk memasukkan ID barang untuk menghapusnya dari daftar.
 
-Memungkinkan pengguna untuk menambahkan barang baru dengan memasukkan detailnya. Barang baru ditambahkan ke daftar jika ID-nya unik.
+- Keluar Program: Mengakhiri program.
 
-Perbarui Barang
-
-Meminta pengguna untuk memasukkan ID barang untuk memperbarui detailnya. Pengguna dapat memilih atribut mana yang akan diperbarui (nama, jumlah, harga, pemasok, atau kategori).
-
-Hapus Barang
-
-Meminta pengguna untuk memasukkan ID barang untuk menghapusnya dari daftar.
-
-Keluar Program
-
-Mengakhiri program.
-
-Penjelasan Program
-
+## Penjelasan Program
 Bagaimana Menjalankan Program
 
 	1.	Pastikan Anda memiliki Python terinstal di komputer Anda.

@@ -1,62 +1,70 @@
-# capstone-project
-Final Exam Modul 1 - Python Fundamental
+📦 Warehouse Data Management System
 
-Sistem Manajemen Data Gudang
+This is a mini Python-based application designed to manage warehouse inventory. The system allows users to Create, Read, Update, and Delete (CRUD) items in the warehouse. It is perfect for small to medium-sized warehouses to efficiently track their inventory.
 
-# Pendahuluan
+✨ Features
 
-Ini adalah aplikasi mini berbasis Python untuk mengelola data gudang. Sistem ini memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus (CRUD) barang-barang di gudang. Program ini ideal untuk gudang kecil hingga menengah untuk melacak inventaris mereka secara efisien.
+	1.	🗂️ View All Items: Displays a list of all items in the warehouse.
+	2.	🔍 View Item by ID: View specific item details by entering its ID.
+	3.	➕ Add New Item: Add new items to the warehouse inventory.
+	4.	🛠️ Update Item: Update the details of existing items.
+	5.	🗑️ Delete Item: Remove items from the warehouse inventory.
+	6.	🚪 Exit Program: Exit the application.
 
-Fitur
+⚙️ How It Works
 
-	1.	Tampilkan Semua Barang: Melihat daftar semua barang yang ada di gudang.
-	2.	Tampilkan Barang berdasarkan ID: Melihat detail barang tertentu dengan memasukkan ID-nya.
-	3.	Tambah Barang Baru: Menambahkan barang baru ke inventaris gudang.
-	4.	Perbarui Barang: Memperbarui detail barang yang sudah ada.
-	5.	Hapus Barang: Menghapus barang dari inventaris gudang.
-	6.	Keluar Program: Keluar dari aplikasi.
+Initial Data
 
-Cara Kerja Program
+The program starts with a predefined list of items in the warehouse. Each item has the following attributes:
 
-## Data Awal
-Program dimulai dengan daftar barang-barang yang telah ditentukan di gudang. Setiap barang memiliki atribut berikut:
+	•	🆔 ID: A unique identifier for the item.
+	•	🏷️ Name: The name of the item.
+	•	📦 Quantity: The amount of the item in stock.
+	•	💰 Price: The price of the item.
+	•	🚚 Supplier: The item’s supplier.
+	•	📁 Category: The category of the item.
 
-	•	id: Pengenal unik untuk barang.
-	•	nama: Nama barang.
-	•	jumlah: Jumlah barang.
-	•	harga: Harga barang.
-	•	supplier: Pemasok barang.
-	•	kategori: Kategori barang.
+🏠 Main Menu
 
-## Menu Utama
-Menu utama menyediakan opsi berikut:
+The main menu offers the following options:
 
-	1.	Menampilkan Daftar Barang
-	2.	Menambah Barang
-	3.	Memperbarui Barang
-	4.	Menghapus Barang
-	5.	Keluar Program
+	1.	View All Items
+	2.	Add New Item
+	3.	Update Item
+	4.	Delete Item
+	5.	Exit Program
 
-- Tampilkan Semua Barang: Menampilkan daftar terformat dari semua barang di gudang.
+🗂️ View All Items
 
-- Tampilkan Barang berdasarkan ID: Meminta pengguna untuk memasukkan ID barang dan menampilkan detailnya.
+Displays a formatted list of all items in the warehouse.
 
-- Tambah Barang Baru: Memungkinkan pengguna untuk menambahkan barang baru dengan memasukkan detailnya. Barang baru ditambahkan ke daftar jika ID-nya unik.
+🔍 View Item by ID
 
-- Perbarui Barang: Meminta pengguna untuk memasukkan ID barang untuk memperbarui detailnya. Pengguna dapat memilih atribut mana yang akan diperbarui (nama, jumlah, harga, pemasok, atau kategori).
+Prompts the user to input an item ID and shows its details.
 
-- Hapus Barang: Meminta pengguna untuk memasukkan ID barang untuk menghapusnya dari daftar.
+➕ Add New Item
 
-- Keluar Program: Mengakhiri program.
+Allows the user to add a new item by entering its details. The new item is added to the list if the ID is unique.
 
-## Penjelasan Program
-Bagaimana Menjalankan Program
+🛠️ Update Item
 
-	1.	Pastikan Anda memiliki Python terinstal di komputer Anda.
-	2.	Salin dan tempel kode ke dalam file Python (misalnya, manajemen_gudang.py).
-	3.	Buka terminal atau command prompt.
-	4.	Arahkan ke direktori tempat file Python disimpan.
-	5.	Jalankan program dengan mengetik python manajemen_gudang.py dan tekan Enter.
-	6.	Ikuti petunjuk di layar untuk berinteraksi dengan sistem manajemen gudang.
+Prompts the user to enter an item ID to update its details. Users can select which attribute (name, quantity, price, supplier, or category) to update.
 
-Program ini menyediakan struktur dasar untuk mengelola data gudang. Program ini dapat dikembangkan dan disesuaikan lebih lanjut berdasarkan kebutuhan spesifik.
+🗑️ Delete Item
+
+Prompts the user to enter an item ID to delete it from the list.
+
+🚪 Exit Program
+
+Ends the program.
+
+🚀 How to Run the Program
+
+	1.	Ensure you have Python installed on your computer.
+	2.	Copy and paste the code into a Python file (e.g., warehouse_management.py).
+	3.	Open a terminal or command prompt.
+	4.	Navigate to the directory where the Python file is saved.
+	5.	Run the program by typing python warehouse_management.py and press Enter.
+	6.	Follow the on-screen instructions to interact with the warehouse management system.
+
+This program provides a basic structure to manage warehouse data. It can be further developed and customized based on specific needs.
